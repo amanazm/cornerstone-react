@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import CornerstoneElement from "./Component/CornerstoneElement/CornerstoneElement";
+// import Viewer from "./Component/CornerViewer/Viewer";
+// import CornerstoneViewer from "./Component/CornerViewer/CornerStoneViewerVolume";
 
 const App = () => {
   const imageId =
@@ -15,6 +17,7 @@ const App = () => {
       <header className="App-header">
         <h2>Cornerstone React Component Example</h2>
         <CornerstoneElement stack={{ ...stack }} />
+        {/* <CornerstoneViewer /> */}
       </header>
     </div>
   );
